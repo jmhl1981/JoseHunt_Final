@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'/>
+<title>Natalia Carrasco | Beauty Consultant</title>
+<link rel="stylesheet" type="text/css" href="styles/base.css">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+
+
+<style>
+
+
+</style>
+<body>
+    <!-- 1. Navigation -->
+    
+    <nav class="clearfix">
+        <ul class="clearfix">
+        <li><a href="#one">About</a></li>
+        <li><a href="#two">Work</a></li>
+        <li><a href="#three">Reviews</a></li>
+        <li><a href="#four">Contact</a></li>
+    </ul>
+        
+        <a href="#" id="pull">Menu</a>
+    </nav>
+    <!-- 2. Branding -->
+    
+    <div id="headerwrap" name="home">
+        <div class="section-top">
+            <a name="top"></a>
+            <div class="inner">
+    
+            <img class="logo">
+            <h1>Natalia</br>Carrasco</h1>
+        
+           </div>
+        </div>
+    </div>
+    <!-- 3. About -->
+<section class="about" class="clearfix">
+	<div class="section who">
+        <a name="one"></a>
+        <div class="inner">
+            <div class="page-section">About Me</div>
+                <div class="section-line"></div>
+                
+        
+        "
+            Hello, I am Natalia. I am a freelance makeup artist based in New York City. Providing on-location wedding day makeup services and makeup services for any event you may be attending. I love people and people love to feel beautiful, which is the reason I’ve spent last 14 years engulfed in doing makeup and styling hair. I believe if you feel comfortable in your skin, then you can spend your energy loving others and enjoying life instead of worrying and being self-conscious. Is makeup the best way to gain self confidence? No way! But it can help a little, plus it’s FUN! So I hope I can help your life be a little bit happier, and perhaps more colorful
+            "</p>
+        <a name="#one"><div id="arrow"></a>
+	</div>
+</section>
+    <!-- 4. Gallery -->
+<section class="about" class="clearfix">
+    <div class="section projects">
+        <a name="two"></a>
+        <div class="inner">
+            <div class="page-section2">My Work</div>
+            <div class="section-line"></div>
+            <div class="work-box">
+                <a href></a>
+                <div class="menu-list">
+                    <dl><img src="Img/thumb1.jpg"></dl>
+                    <dl><img src="Img/thumb2.jpg"></dl>
+                    <dl><img src="Img/thumb3.jpg"></dl>
+                    <dl><img src="Img/thumb4.jpg"></dl>
+                    <dl><img src="Img/thumb1.jpg"></dl>
+                    <dl><img src="Img/thumb2.jpg"></dl>
+                    <dl><img src="Img/thumb3.jpg"></dl>
+                    <dl><img src="Img/thumb4.jpg"></dl>
+                    <dl><img src="Img/thumb1.jpg"></dl>
+                    <dl><img src="Img/thumb2.jpg"></dl>
+                    <dl><img src="Img/thumb3.jpg"></dl>
+                    <dl><img src="Img/thumb4.jpg"></dl>
+                    
+                </div>
+                <div class="clearboth"></div>
+            </div>
+            
+         
+        </div>
+    </div>
+</section>
+    <!-- 5. Reviews -->
+<section class="about" class="clearfix">
+	<div class="section who">
+        <a name="three"></a>
+        <div class="inner">
+            <div class="page-section">Reviews</div>
+                <div class="section-line"></div>
+                
+        
+        "
+            Hello, I am Natalia. I am a freelance makeup artist based in New York City. Providing on-location wedding day makeup services and makeup services for any event you may be attending. I love people and people love to feel beautiful, which is the reason I’ve spent last 14 years engulfed in doing makeup and styling hair. I believe if you feel comfortable in your skin, then you can spend your energy loving others and enjoying life instead of worrying and being self-conscious. Is makeup the best way to gain self confidence? No way! But it can help a little, plus it’s FUN! So I hope I can help your life be a little bit happier, and perhaps more colorful
+            "</p>
+        <div id="arrow"><a href="#top"></a></div>
+	</div>
+</section>
+     <!-- 6. Contact -->
+<section class="about" class="clearfix">
+    <div class="section projects">
+        <a name="four"></a>
+        <div class="inner">
+            <div class="page-section2">Contact Me</div>
+            <div class="section-line"></div>
+                <form>
+<div>
+
+<label>
+<span>Your name</span><input id="name" type="text" name="name" />
+</label>
+
+<label>
+<span>Email Address</span><input id="email" type="text" name="email" />
+</label>
+
+<label>
+<span>Subject</span><input id="subject" type="text" name="subject" />
+</label>
+
+<label>
+<span>Message</span><textarea id="feedback" name="feedback"></textarea>
+<input type="button" value="Submit Form" />
+</label>
+
+</div>
+</form>
+        </div>
+    </div>
+</section>
+
+  <!-- 7. Footer -->
+<section>
+    <div class="section footer">
+	<div class="inner-footer">
+        
+                1400 Fifth Avenue - New York, NY | 917.331.2623 | Natalia Carrasco
+        <div id="arrow"><a href="#top"></a></div>
+	
+    </div>    
+    </div>        
+        
+        
+</section>
+    
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+  var menu = $("nav ul");
+  $("#pull").on("click", function(e){
+    e.preventDefault();
+    menu.slideToggle();
+  });
+
+  $(window).resize(function(){
+    var w = $(this).width();
+    if( w > 400 && menu.is(":hidden")) {
+      menu.removeAttr('style');
+    }
+    console.log(w);
+  });
+
+$('.carousel').carousel()
+  
+</script>
+</body>
+</html>
